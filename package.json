@@ -2,9 +2,9 @@
   "name": "devops-node-app",
   "version": "1.0.0",
   "description": "Simple Node.js app for DevOps demo",
-  "main": "server.js",
+  "main": "src/app.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node src/app.js"
   },
   "dependencies": {
     "express": "^4.19.2"
