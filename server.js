@@ -13,7 +13,7 @@ app.get('/', (req, res) => {
 app.get('/health', (req, res) => {
   res.status(200).json({
     status: "healthy",
-    message: "Application is running smoothly",
+    message: "Application is running smoothly!! and jenkins is also running healthy.",
     timestamp: new Date().toISOString(),
     version: "1.0.0"
   });
